@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="styles-donatenow.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Kurale&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Kurale&family=Rancho&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <section class="sec">
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h2>.</h2>
+        </section>
+        
+        <!-- GIF and Charity Name -->
+        <div class="header">
+            <img src="donation.gif" alt="Charity GIF">
+            <h1>Hunger Heroes Organization</h1>
+        </div>
+        <!-- Choose Donation Type -->
+        <section class="donation-type">
+            <h2>Choose Your Donation</h2>
+            <div class="radio-buttons">
+                <input type="radio" id="one-time" name="donation-type" value="one-time">
+                <label for="one-time">One-time Gift</label>
+                <input type="radio" id="monthly" name="donation-type" value="monthly">
+                <label for="monthly">Monthly Gift</label>
+            </div>
+        </section>
+        <!-- Donation Amount -->
+        <section class="donation-amount">
+            <h2>Donation Amount</h2>
+            <div class="button-container">
+                <button>$100</button>
+                <button>$150</button>
+                <button>$250</button>
+            </div>
+            <input type="text" id="custom-amount" placeholder="Enter custom amount">
+        </section>
+
+        <!-- Donation On Behalf -->
+        <section class="on-behalf">
+            <h2>Donation By</h2>
+            <input type="checkbox" id="company" name="on-behalf" value="company">
+            <label for="company">Donation on behalf of a company</label>
+            <br>
+            <input type="checkbox" id="individual" name="on-behalf" value="individual">
+            <label for="individual">Donation by an individual</label>
+        </section>
+        <!-- Personal Information -->
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Phone">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="Postal Code">
+        </section>
+        <!-- Payment Information -->
+        <section class="payment-info">
+            <h2>Payment Information</h2>
+            <select>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="paypal">Paypal</option>
+            </select>
+            <input type="text" placeholder="Credit Card Number">
+            <input type="text" placeholder="Cardholder Name">
+            <input type="text" placeholder="Expiration (MM/YY)">
+            <input type="text" placeholder="CVV">
+        </section>
+        <!-- Donate Button -->
+        <button class="donate-btn">Donate</button>
+        <!-- Footer -->
+        <footer>
+            <p>123 Queen Street, Ontario</p>
+            <p>+1(123) 456-789</p>
+            <p>hungerheroes@gmail.com</p>
+        </footer>
+    </div>
+</body>
+
+</html>

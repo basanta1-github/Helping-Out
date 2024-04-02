@@ -1,0 +1,146 @@
+
+.container-forms {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: 10%;
+}
+form{
+    margin-bottom: 100px;
+}
+
+section #contact {
+    width: 50%;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-box {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 14px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group select {
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+    margin-right: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+*,
+::placeholder,
+select option {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: skyblue;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+.text h1{
+    width: 25%;
+    position: absolute;
+    font-size: 2.5em;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 25%;
+}
+
+.shape2{
+    position: absolute;
+    left: 53%;
+    margin-top: 130px;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 100%; 
+    opacity: 0.8; 
+    z-index: -1;
+}
+.shape1{
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 100%; 
+    opacity: 0.8; 
+}
+.shape3{
+    position: absolute;
+    left: 35%;
+    margin-top: 160px;
+    transform: translateX(-50%);
+    width: auto;
+    max-width: 100%; 
+    opacity: 10; 
+    z-index: 1;
+}
+
+.container-forms {
+    margin-bottom: 30px; 
+}
+
+
+
+

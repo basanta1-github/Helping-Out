@@ -1,0 +1,19 @@
+/* Default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add your default styles here */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+}
+
+/* Media query for larger screens if necessary */
+@media only screen and (min-width: 1200px) {
+    /* Add specific styles for larger screens if needed */
+}

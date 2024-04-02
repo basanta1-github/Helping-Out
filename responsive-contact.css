@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .form-group {
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 2600px) {
+    nav{
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 2600px) {
+    .form-group {
+        width: 50%;
+        padding-right: 20px;
+    }
+}
+
+
+.text {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.business-info {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    margin: 0 10px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.business-hour {
+    list-style: none;
+    padding: 0;
+}
+
+.business-hour li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 660px) {
+    .text .shape3 img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text h1{
+        display: none;
+    }
+    .forms{
+        width: auto;
+        max-width: 100%;
+        margin-right: 200px;
+    }
+    .container-forms{
+        /* width: 250%;*/
+         margin-left: -180px; 
+        align-items: center;
+        width: 200%;
+    }
+}
+@media screen and (max-width: 470px) {
+    .container-forms{
+        /* width: 250%;*/
+         margin-left: -100px; 
+        align-items: center;
+        width: 200%;
+    }
+}
+@media screen and (max-width: 357px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container-forms{
+        width: auto;
+         margin-left: -10px; 
+        align-items: center;
+        width: 200%;
+    }
+}

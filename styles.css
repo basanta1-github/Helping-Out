@@ -1,0 +1,412 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background: skyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+#main-footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-widget {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-widget h4 {
+    color: #333;
+}
+
+.footer-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px;
+}
+
+.footer-widget ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-widget ul li a:hover {
+    color: #000;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.about-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 100px;
+    background-color: rgb(248, 242, 242);
+}
+
+.about-heading {
+    font-size: 36px;
+}
+
+.about-section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.support-button {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    white-space: nowrap;
+    min-width: 200px;
+}
+
+.contact-section {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.contact-section p {
+    margin-top: -20px;
+    text-align: center;
+}
+
+#contact-form {
+    width: 40%;
+    background-color: rgb(248, 242, 242);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+#contact-form textarea {
+    height: 150px;
+    margin: 0 auto;
+}
+
+#contact-form input[type="submit"] {
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-widget ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.volunteer-section {
+    width: 30%;
+}
+
+.contact-form-container {
+    width: 65%;
+}
+
+.volunteer-section h2,
+.volunteer-section p {
+    text-align: center;
+}
+
+.contact-form-container input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+}
+
+#contact-form label,
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS for contact details section */
+.contact-details {
+    float: left;
+    margin-right: 20px;
+    clear: left;
+}
+
+/* CSS for contact info section */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -450px;
+}
+
+body {
+    /* background-image: url('2.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 80px;
+    margin-top: 60px;
+}
+
+.contact-box {
+    width: 150px;
+    padding: 10px;
+    /* background-color: skyblue; */
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.contact-box p {
+    font-size: 16px;
+    margin: 0;
+}
+
+h2,
+h3,
+p {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.business-hour {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 80px;
+}
+
+.business-hour li {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.support-button:hover {
+    background-color: #d97e7e;
+}
+
+.navbar ul li a:hover {
+    color: #ff4747;
+}
+#contact-form {
+    background-color: #bbe5ea; 
+}
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-info1 {
+    text-align: right;
+    color: #dd1f1f;
+    font-size: 24px;
+}
+.service-info2 {
+    text-align: left;
+    color: #dd1f1f;
+    font-size: 24px;
+}
+.service-info3 {
+    text-align: right;
+    color: #dd1f1f;
+    font-size: 24px;
+}
+
+.image-placeholder1 {
+    display: flex;
+    text-align: left;
+    flex: 1;
+}
+.image-placeholder2 {
+    text-align: right;
+    flex: 1;
+}
+.image-placeholder3 {
+    display: flex;
+    text-align: left;
+    flex: 1;
+}
+
+.image-placeholder1 img {
+    width: 30%;
+    height: auto;
+}
+.image-placeholder2 img {
+    width: 30%;
+    height: auto;
+}
+.image-placeholder3 img {
+    width: 30%;
+    height: auto;
+}
+section p {
+    color: #ffffff; /* Font color */
+    background-color: #333333; /* Background color */
+    padding: 10px; /* Add padding for better readability */
+}
+
+.logo2 img{
+    height: 100px;
+    width: 100px;
+}
+.logo2 span{
+    margin-left: -125px;
+}
+.business-info{
+    position: relative;
+    margin-top: 800px;
+}
+
+
+@media screen and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+    }
+    footer{
+        width: auto;
+    }
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
